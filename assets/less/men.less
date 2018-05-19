@@ -1,0 +1,56 @@
+
+#men, #women {
+  margin: 2rem 0 3rem;
+  .btn-toggle {
+    img {
+      padding: 5px;
+    }
+  }
+  h1 {
+    color: @heading-color;
+    text-transform: uppercase;
+    font-family: 'Segoe-Regular';
+  }
+  h4 {
+    color: @primary-text-color;
+    text-transform: uppercase;
+    font-family: 'Segoe-Semibold';
+  }
+  h5 {
+    color: @secondary-text-color;
+    text-transform: uppercase;
+    font-family: 'Segoe-Semibold';
+  }
+  p {
+    color: @primary-color;
+    text-transform: uppercase;
+    font-family: 'Segoe-Semibold';
+  }
+  #menPerfume, #womenPerfume {
+    img {
+      height: 245px;
+    }
+  }
+}
+
+@media only screen
+  and (min-device-width: 768px) {
+    #men, #women {
+      #menPerfume, #womenPerfume {
+        img {
+          height: 170px;
+        }
+      }
+    }
+}
+
+@media only screen
+  and (min-device-width: 1025px) {
+    #men, #women {
+      #menPerfume, #womenPerfume {
+        img {
+          height: 290px;
+        }
+      }
+    }
+  }

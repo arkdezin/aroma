@@ -1,0 +1,29 @@
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Height */
+
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: @primary-color;
+  border-radius: 10px;
+  max-height: 50px;
+}
+
+/* Window-Inactivity */
+::-webkit-scrollbar-thumb:window-inactive {
+  background: lighten(@primary-color, 80%);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: darken(@primary-color, 10%);
+}

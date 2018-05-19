@@ -1,0 +1,37 @@
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html,
+body,
+div,
+section,
+article,
+audio,
+video,
+p,
+summary,
+details {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  line-height: 1.1;
+}
+
+::selection {
+  background: @primary-color;
+  color: #fff;
+}
+
+.row,
+[class*='col-'] {
+  margin: 0;
+  padding: 0;
+}

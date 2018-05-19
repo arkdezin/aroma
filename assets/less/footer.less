@@ -1,0 +1,114 @@
+
+#footer {
+  background: @footer-bg-color;
+  padding: 2rem 0;
+  h5 {
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Din-Regular';
+    font-weight: 600;
+    text-indent: 40px;
+  }
+  #social {
+    margin-top: 4rem;
+  }
+  .fa-facebook {
+    text-indent: 40px;
+  }
+  ul {
+    list-style: none;
+    li {
+      display: none;
+      a {
+        color: @footer-list-color;
+        font-family: 'Din-Light';
+        //text-indent: -40px;
+        line-height: 1.5;
+        &:hover {
+          text-decoration: none;
+          font-weight: 800;
+          color: #fff;
+        }
+      }
+    }
+  }
+  .fa {
+    color: #828282;
+    padding: 1.2rem .8rem;
+    &:hover,
+    &:active,
+    &:visited {
+      color: @primary-color;
+    }
+  }
+}
+
+#copyrt {
+  background: @copyrt-bg-color;
+  font-family: 'Din-Light';
+  color: @copyrt-font-color;
+
+  p {
+    padding: 1rem 0;
+    font-size: .9rem;
+  }
+}
+
+@media only screen
+  and (min-device-width: 768px) {
+  #footer {
+    padding: 2rem 0;
+    #social {
+      margin-top: 3rem;
+    }
+    h5 {
+      text-indent: 0;
+      font-size: 1rem;
+    }
+    ul {
+      li {
+        display: flex;
+        a {
+          text-indent: -40px;
+        }
+      }
+    }
+    .fa-facebook {
+      text-indent: 0;
+    }
+  }
+  #copyrt {
+    p {
+      font-size: 1rem;
+    }
+  }
+}
+
+@media only screen
+  and (min-device-width: 1025px) {
+  #footer {
+    padding: 3rem 0;
+    #social {
+      margin-top: 0;
+    }
+    h5 {
+      text-indent: 40px;
+    }
+    ul {
+      li {
+        display: flex;
+        a {
+          text-indent: 0;
+        }
+      }
+    }
+    .fa-facebook {
+      text-indent: 40px;
+    }
+  }
+  #copyrt {
+    p {
+      font-size: 1.2rem;
+    }
+  }
+}

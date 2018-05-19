@@ -1,0 +1,103 @@
+#news {
+  background: url('../images/m-news.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #ddd;
+  max-width: 100%;
+  padding: 3rem 0;
+  height: 350px;
+  h1 {
+    text-transform: uppercase;
+    font-family: 'Segoe-Semibold';
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 0 1.2rem;
+  }
+  input[type='email'] {
+    display: block;
+    border: 1px solid rgba(0, 0, 0, .16);
+    background: #f4f4f3;
+    padding: .5rem .8rem;
+    width: 80%;
+    font-family: 'Segoe-Semibold';
+    margin: 2rem auto 1rem;
+    &:active,
+    &:focus {
+      outline: none;
+      border: 1px solid @primary-color;
+    }
+    &::placeholder {
+      color: #a5a5a5;
+    }
+  }
+  #sub {
+    background: transparent;
+    color: @primary-color;
+    text-transform: uppercase;
+    border: 1px solid @primary-color;
+    font-family: 'Segoe-Semibold';
+    border-radius: 20px;
+    font-weight: 500;
+    padding: .5rem 1.2rem;
+    font-size: .9rem;
+    margin: 1.5rem 0;
+    &:active,
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+@media only screen
+  and (min-device-width: 768px) {
+  #news {
+    background: url('../images/t-news.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2rem 0;
+    height: 365px;
+
+    h1 {
+      font-size: 1.6rem;
+    }
+    input[type='email'] {
+      width: 100%;
+      padding: .8rem 1rem;
+      margin: 1.6rem 0 1rem;
+    }
+    #sub {
+      font-size: 1.1rem;
+      margin: 1.2rem 0;
+    }
+  }
+}
+
+@media only screen
+  and (min-device-width: 1025px) {
+    #news {
+      background: url('../images/d-news.jpg');
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding: 3rem 0;
+      height: 470px;
+
+      h1 {
+        font-size: 2.5rem;
+      }
+      input[type='email'] {
+        width: 100%;
+        padding: .8rem 1rem;
+        margin: 2rem 0 1rem;
+      }
+      #sub {
+        border: 3px/2px solid @primary-color;
+        border-radius: 30px;
+        font-size: 1.3rem;
+        margin: 1.5rem 0;
+        padding: .8rem 3rem;
+      }
+    }
+  }
