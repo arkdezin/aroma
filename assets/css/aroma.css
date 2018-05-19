@@ -152,6 +152,27 @@ body {
   height: 245px;
 }
 @media only screen and (min-device-width: 768px) {
+  #men .btn-toggle img,
+  #women .btn-toggle img {
+    padding: 2px;
+    height: 70%;
+  }
+  #men h1,
+  #women h1 {
+    font-size: 2rem;
+  }
+  #men h4,
+  #women h4 {
+    font-size: 1.1rem;
+  }
+  #men h5,
+  #women h5 {
+    font-size: .825rem;
+  }
+  #men p,
+  #women p {
+    font-size: .85rem;
+  }
   #men #menPerfume img,
   #women #menPerfume img,
   #men #womenPerfume img,
@@ -160,6 +181,27 @@ body {
   }
 }
 @media only screen and (min-device-width: 1025px) {
+  #men .btn-toggle img,
+  #women .btn-toggle img {
+    padding: 5px;
+    height: 90%;
+  }
+  #men h1,
+  #women h1 {
+    font-size: 2.5rem;
+  }
+  #men h4,
+  #women h4 {
+    font-size: 1.5rem;
+  }
+  #men h5,
+  #women h5 {
+    font-size: 1.25rem;
+  }
+  #men p,
+  #women p {
+    font-size: 1rem;
+  }
   #men #menPerfume img,
   #women #menPerfume img,
   #men #womenPerfume img,
