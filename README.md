@@ -1,3 +1,3 @@
-# aroma | Fragrence of life 
+# AROMA | Fragrence of life 
 
 Project work for Creative Minds
