@@ -1,4 +1,14 @@
 @charset "UTF-8";
+/*
+    Theme Name: Aroma
+    Theme URI: arkdezin.github.io/aroma
+    Author: Arkdezin
+    Author URI: arkdezin.github.io/portfolio
+    Description: Fragrence of life
+    Version: 0.0.1 alpha
+    License: GNU GENERAL PUBLIC LICENSE Version 2
+    Licence URI: https://www.gnu.org/licenses/gpl-2.0.html
+*/
 @font-face {
   font-family: 'Din-BlackAlternate';
   src: url('../font/din/din-blackalternate.ttf') format('truetype');
